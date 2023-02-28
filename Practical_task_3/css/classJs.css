@@ -1,0 +1,56 @@
+.tabcontent {
+    display: none;
+}
+
+.activeTab {
+    display: block;
+    animation-name: opacity;
+    animation-duration: 1s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.messageText {
+    display: block;
+    margin: 3px auto;
+}
+
+.offer__slider-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.tapeSlide {
+    display: flex;
+    transition: transform .3s;
+}
+
+.navigationSlider {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.navBtn {
+    width: 30px;
+    height: 8px;
+    background-color: #ffffff94;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.activeNavBtn {
+    background-color: white;
+}
+
